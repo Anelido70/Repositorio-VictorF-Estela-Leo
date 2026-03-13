@@ -1,0 +1,11 @@
+name: Verificación básica
+
+on: [push]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mensaje de verificación
+        run: echo "Repositorio actualizado correctamente"
